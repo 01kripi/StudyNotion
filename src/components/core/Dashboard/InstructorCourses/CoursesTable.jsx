@@ -47,9 +47,7 @@ export default function CoursesTable({ courses, setCourses }) {
             <Th className="flex-1 text-left text-sm font-medium uppercase text-richblack-100">
               Courses
             </Th>
-            <Th className="text-left text-sm font-medium uppercase text-richblack-100">
-              Duration
-            </Th>
+          
             <Th className="text-left text-sm font-medium uppercase text-richblack-100">
               Price
             </Th>
@@ -109,9 +107,7 @@ export default function CoursesTable({ courses, setCourses }) {
                     )}
                   </div>
                 </Td>
-                <Td className="text-sm font-medium text-richblack-100">
-                  2hr 30min
-                </Td>
+              
                 <Td className="text-sm font-medium text-richblack-100">
                   ₹{course.price}
                 </Td>
